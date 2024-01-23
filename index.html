@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Time Table</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div.heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0px auto;
+        }
+
+        div.timetable {
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            height: 50px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        tr>th {
+            background-color: #376F70 !important;
+            color: cyan;
+            text-wrap: wrap;
+            padding: 0px 10px;
+        }
+
+        .web {
+            background-color: #D2E9E3;
+        }
+
+        .namaz {
+            background-color: #3AAFA9;
+
+        }
+
+        .grap {
+            background-color: #99AEA9;
+        }
+
+        .ccoa {
+            background-color: #00887A;
+            color: whitesmoke;
+        }
+
+        .videos {
+            background-color: #89BDBB;
+        }
+
+        .freespace {
+            background-color: whitesmoke;
+            color: #376F70;
+        }
+
+        .ai {
+            background-color: #57BB99;
+        }
+
+        .low_height {
+            height: 20px;
+        }
+        footer {
+            margin-top: 10px;
+            position: relative;
+            bottom: 0px;
+            text-align: center;
+        }
+        .leftimg {
+            height: 100px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .rightimg {
+            height: 100px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <img src="./img/smit logo.png" class="leftimg" alt="SMIT">
+        <img src="./img/saylani logo.png" class="rightimg" alt="Saylani">
+        <h1>Saylani Mass IT Training</h1>
+        <h2>Classes Schedule (Lab-1)</h2>
+    </div>
+    <div class="timetable">
+        <table>
+            <tr>
+                <th>Day and Time</th>
+                <th>09:00am to 10:00am</th>
+                <th>10:00am to 11:00am</th>
+                <th>11:00am to 12:00pm</th>
+                <th>12:00pm to 01:00pm</th>
+                <th>01:00pm to 02:00pm</th>
+                <th>02:00pm to 03:00pm</th>
+                <th>03:00pm to 04:00pm</th>
+                <th>04:00pm to 05:00pm</th>
+                <th>05:00pm to 06:00pm</th>
+                <th>06:00pm to 07:00pm</th>
+                <th>07:00pm to 08:00pm</th>
+                <th>08:00pm to 09:00pm</th>
+                <th>09:00pm to 10:00pm</th>
+                <th>10:00pm to 11:00pm</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="videos">Video Editing (Section-A)</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-A)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="ai">AI and Chatbot ()</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="2" class="grap">Graphic Designing (Section-A)</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-B)</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="ccoa">CCO (Section-C)</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-B)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="ai">AI and Chatbot</td>
+                <td colspan="2" class="freespace">Free Time</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="freespace">Free Time</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-C)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="ai">AI and Chatbot ()</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="4" class="freespace">Free Time</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="videos">Video Editing (Section-A)</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-A)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="ai">AI and Chatbot ()</td>
+                <td colspan="3" class="freespace">Free Time</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="ccoa">CCO (Section-C)</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="web">Mobile Web and App</td>
+                <td colspan="2" class="ai">AI and Chatbot ()</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td colspan="2" class="grap">Graphic Designing (Section-A)</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-B)</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="2" class="freespace">Free Time</td>
+                <td colspan="2" class="grap">Graphic Designing (Section-C)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="2" class="web">Web and Mobile all</td>
+                <td colspan="2" class="freespace">Free Time</td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td colspan="3" class="web">Web and Mobile App</td>
+                <td class="freespace">Free Time</td>
+                <td class="namaz">Namaz Break</td>
+                <td colspan="3" class="videos">Video Editing (Section-B)</td>
+                <td class="freespace">Free Time</td>
+                <td colspan="3" class="ai">AI and Chatbot</td>
+                <td colspan="2" class="freespace">Free Time</td>
+            </tr>
+            <tr>
+                <td colspan="15" class="low_height"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="namaz">Namaz Time</td>
+                <td colspan="2" class="web">Web and Mobile App</td>
+                <td colspan="2" class="grap">Graphic Designing</td>
+                <td colspan="2" class="videos">Video Edinting</td>
+                <td colspan="2" class="ccoa">CCO</td>
+                <td colspan="2" class="ai">AI and Chatbot</td>
+                <td colspan="3" class="freespace">Free Time</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <address>Copyright © 2024 SMIT Student/Abdullah Bhatti. All rights reserved.</address>
+    </footer>
+</body>
+</html>
